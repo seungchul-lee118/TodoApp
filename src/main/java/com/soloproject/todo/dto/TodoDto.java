@@ -11,6 +11,7 @@ import javax.validation.constraints.Positive;
 
 public class TodoDto {
     @Getter
+    @AllArgsConstructor
     public static class Post {
         @NotBlank
         private String title;

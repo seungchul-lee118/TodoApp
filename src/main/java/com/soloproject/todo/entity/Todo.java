@@ -22,4 +22,10 @@ public class Todo {
 
     @Column(nullable = false)
     private Boolean completed;
+
+    public Todo(String title, Integer todoOrder, Boolean completed) {
+        this.title = title;
+        this.todoOrder = todoOrder;
+        this.completed = completed;
+    }
 }
